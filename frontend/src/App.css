@@ -1,0 +1,51 @@
+body{
+  background:#f4f6f8;
+  font-family:Arial;
+  }
+  
+  .container{
+  text-align:center;
+  padding:40px;
+  }
+  
+  .uploadBox{
+  margin:20px;
+  }
+  
+  button{
+  padding:10px 20px;
+  background:#3b82f6;
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:8px;
+  cursor:pointer;
+  }
+  
+  button:hover{
+  background:#2563eb;
+  }
+  
+  .results{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin-top:40px;
+  flex-wrap:wrap;
+  }
+  
+  .imageCard{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .imageCard img{
+  width:300px;
+  }
+  
+  .stats{
+  margin-top:40px;
+  font-size:20px;
+  }
