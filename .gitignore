@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+*.sqlite3
+
+# migrations cache (keep migrations but ignore compiled)
+*/migrations/__pycache__/
+
+# static files (if generated)
+staticfiles/
+
+# media uploads (optional)
+media/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Frontend
+# =========================
+node_modules/
+dist/
+build/
+
+
+
+# =========================
+# Results
+# =========================
+results/
+outputs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Testing
+# =========================
+.coverage
+.pytest_cache/

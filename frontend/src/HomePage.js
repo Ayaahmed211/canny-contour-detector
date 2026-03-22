@@ -147,9 +147,9 @@ export default function HomePage() {
           <MenuButton
             icon="◯"
             title="Active Contour"
-            description="Coming soon..."
+            description="Initialize contour and evolve using Greedy Snake algorithm"
             color={C.orange}
-            onClick={() => alert("Active Contour mode coming soon!")}
+            onClick={() => navigate("/snake")} // Or whatever route name you prefer!
           />
         </div>
       </div>
